@@ -1,7 +1,7 @@
 /* elements 0.5 */
 
 html {
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 
 body {
@@ -88,12 +88,11 @@ a {
 .headerImage {
     width:100vw;
     height: 100vh;
-    background: url("./IMG_8271.JPG") no-repeat center center;
+    background: url("./IMG_8271.PNG") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    filter: brightness(80%);
     display: flex;
     justify-content: center;
     
