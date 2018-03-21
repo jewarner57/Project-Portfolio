@@ -86,7 +86,7 @@ a {
 
 /*1.1 Header */
 .headerImage {
-    width:100vw;
+    width:105vw;
     height: 100vh;
     background: url("./IMG_8271.PNG") no-repeat center center;
     -webkit-background-size: cover;
@@ -101,6 +101,7 @@ a {
 .headerTitle {
     width: 100%;
     margin-top: 43vh;
+    margin-left: 3.5vw;
     color:#e0e0e0;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
