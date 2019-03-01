@@ -161,6 +161,11 @@ a {
     
 }
 /* 3.0 Portfolio Section */ 
+.portfolioItemSmallText {
+    font-size: 10px;
+}
+
+
 .portfolioSection {
     font-family: 'Open Sans', sans-serif;
     padding: 20px;
@@ -173,7 +178,6 @@ a {
     height:200px;
     margin: 15px;
 }
-
 
 .portfolioItemContainer {
     display: flex;
