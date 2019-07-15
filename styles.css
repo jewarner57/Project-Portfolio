@@ -16,10 +16,36 @@ a {
 
 .inTextLink {
     color:black;
+    text-decoration: underline;
 }
 
 .inTextLink:hover {
     text-decoration: underline;
+}
+
+.githubLink {
+    color:black;
+    text-decoration: underline;
+
+    animation-name: linkColorFlash;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.githubLinkText {
+    font-size: 20px;
+    color:black;
+    text-align: center;
+    margin-top: 40px;
+}
+
+@keyframes linkColorFlash {
+    0% {color: black;}
+    20% {color: red;}
+    30% {color: orange;}
+    40% {color: green;}
+    50% {color: blue;}
+    60% {color: black;}
 }
 
 /* 1.0 Nav Menu */
@@ -88,7 +114,7 @@ a {
 .headerImage {
     width:105vw;
     height: 100vh;
-    background: url("./IMG_8271.PNG") no-repeat center center;
+    background: url("./header-min.png") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
