@@ -1,272 +1,235 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Jonathan Warner's Personal Portfolio</title>
-    <link rel="stylesheet" href="./styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700"
-      rel="stylesheet"
-    />
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<head>
+  <title>Jonathan Warner's Portfolio</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" />
 
-    <meta name="author" content="Jonathan Warner" />
-    <meta name="description" content="Jonathan Warner's Personal Portfolio" />
-    <meta
-      name="keywords"
-      content="Jonathan, Warner, Web-development, app-development, balloon art"
-    />
-  </head>
-  <body>
-    <div class="navbar navbarStart"></div>
-    <div class="navbarContainer">
-      <a href="#pageTop" class="navLink"
-        ><div class="navTitle">Jonathan Warner</div></a
-      >
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-      <div class="navItems">
-        <a href="#pageTop" class="navLink"><div class="navButton">Home</div></a>
-        <a href="#aboutMeSection" class="navLink"
-          ><div class="navButton">About</div></a
-        >
-        <a href="#skillsSection" class="navLink"
-          ><div class="navButton">Skills</div></a
-        >
-        <a href="#portfolioSection" class="navLink"
-          ><div class="navButton">Portfolio</div></a
-        >
+  <meta name="author" content="Jonathan Warner" />
+  <meta name="description" content="Jonathan Warner's Portfolio" />
+  <meta name="keywords" content="Jonathan, Warner, Web-development, app-development, programmer" />
+</head>
+
+<body>
+  <div class="navbar navbarStart"></div>
+  <div class="navbarContainer">
+    <a href="#pageTop" class="navLink">
+      <div class="navTitle">Jonathan Warner</div>
+    </a>
+
+    <div class="navItems">
+      <a href="#pageTop" class="navLink">
+        <div class="navButton">Home</div>
+      </a>
+      <a href="#aboutMeSection" class="navLink">
+        <div class="navButton">About</div>
+      </a>
+      <a href="#skillsSection" class="navLink">
+        <div class="navButton">Skills</div>
+      </a>
+      <a href="#portfolioSection" class="navLink">
+        <div class="navButton">Portfolio</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="headerTitle">
+    <h1>Jonathan Warner:</h1>
+    <h2 id="iamList">Front-End Developer</h2>
+  </div>
+
+  <div class="headerImage" id="pageTop"></div>
+  <div class="aboutMeSection" id="aboutMeSection">
+    <div class="aboutMeDesc">
+      <h1>Hello, I'm Jonathan</h1>
+      <h2>Tech guy from Harrisonburg, Virginia</h2>
+
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp; At age 8 I discovered
+        <a href="https://www.scratch.mit.edu" class="inTextLink">Scratch</a>:
+        a beginners programming language. I fell in love and never looked
+        back. In the years since, I have widened my skills from Scratch to
+        many other programming languages and platforms. I am currently attending <a href="https://www.makeschool.com/"
+          class="inTextLink">Make School</a> in SF where I am majoring in front end web development.
+      </p>
+    </div>
+  </div>
+  <div class="skillsSection">
+    <h1 class="sectionTitle" id="skillsSection">My Skills</h1>
+    <div class="skillsOuterWrapper">
+      <div class="skillsInnerWrapper">
+        <p class="skillItem">
+          HTML5<span><img src="./html5.png" class="icon" /></span>
+        </p>
+        <p class="skillItem">
+          CSS<span><img src="./css.png" class="icon" /></span>
+        </p>
+        <p class="skillItem">
+          Javascript<span><img src="./javascript.png" class="icon" /></span>
+        </p>
       </div>
-    </div>
-
-    <div class="headerTitle">
-      <h1>Jonathan Warner:</h1>
-      <h2 id="iamList">Web Developer</h2>
-    </div>
-
-    <div class="headerImage" id="pageTop"></div>
-    <div class="aboutMeSection" id="aboutMeSection">
-      <div class="aboutMeDesc">
-        <h1>Hello, I'm Jonathan</h1>
-        <h2>Tech guy from Harrisonburg, Virginia</h2>
-
-        <p>
-          &nbsp;&nbsp;&nbsp;&nbsp; At age 8 I discovered
-          <a href="https://www.scratch.mit.edu" class="inTextLink">Scratch</a>:
-          a beginners programming language. I fell in love and never looked
-          back. In the years since, I have widened my skills from Scratch to
-          many other programming languages and platforms. I am currently taking
-          a gap year before I attend Make School in the fall of 2020. When I am
-          not coding or fiddling with my computer I am making balloon animals at
-          special events and festivals around town. In my spare time I run cross
-          country, hike, and toy with fpv quadcopters.
+      <div class="skillsInnerWrapper">
+        <p class="skillItem">
+          React<span><img src="./react.png" class="icon" /></span>
+        </p>
+        <p class="skillItem">
+          Node.js<span><img src="./node.png" class="icon" /></span>
+        </p>
+        <p class="skillItem">
+          jQuery<span><img src="./jquery.png" class="icon" /></span>
+        </p>
+      </div>
+      <div class="skillsInnerWrapper">
+        <p class="skillItem">
+          Swift<span><img src="./swift.png" class="icon" /></span>
+        </p>
+        <p class="skillItem">
+          Java<span><img src="./java.png" class="icon" /></span>
+        </p>
+        <p class="skillItem">
+          Wordpress<span><img src="./wordpress.png" class="icon" /></span>
         </p>
       </div>
     </div>
-    <div class="skillsSection">
-      <h1 class="sectionTitle" id="skillsSection">My Skills</h1>
-      <div class="skillsOuterWrapper">
-        <div class="skillsInnerWrapper">
-          <p class="skillItem">
-            HTML5<span><img src="./html5.png" class="icon" /></span>
-          </p>
-          <p class="skillItem">
-            CSS<span><img src="./css.png" class="icon" /></span>
-          </p>
-          <p class="skillItem">
-            Javascript<span><img src="./javascript.png" class="icon" /></span>
-          </p>
-        </div>
-        <div class="skillsInnerWrapper">
-          <p class="skillItem">
-            React<span><img src="./react.png" class="icon" /></span>
-          </p>
-          <p class="skillItem">
-            Wordpress<span><img src="./wordpress.png" class="icon" /></span>
-          </p>
-          <p class="skillItem">
-            jQuery<span><img src="./jquery.png" class="icon" /></span>
-          </p>
-        </div>
-        <div class="skillsInnerWrapper">
-          <p class="skillItem">
-            Swift<span><img src="./swift.png" class="icon" /></span>
-          </p>
-          <p class="skillItem">
-            Java<span><img src="./java.png" class="icon" /></span>
-          </p>
-          <p class="skillItem">
-            Balloon Art<span><img src="./balloonart.png" class="icon" /></span>
-          </p>
-        </div>
+    <p class="githubLinkText">
+      Check out my
+      <a href="https://github.com/jewarner57" class="githubLink" target="_blank">Github</a>
+    </p>
+  </div>
+  <div class="portfolioSection" id="portfolioSection">
+    <h1 class="sectionTitle">My Portfolio</h1>
+
+    <div class="portfolioItemContainer">
+      <div class="portfolioItem">
+        <img src="quarticolorlogo.png" class="portfolioImg" /><a href="https://quarticolor.wordpress.com/"
+          class="inTextLink" target="_blank">
+          <div class="hoverDiv">
+            <h2>Quarticolor</h2>
+            <p>App</p>
+          </div>
+        </a>
       </div>
-      <p class="githubLinkText">
-        Check out my
-        <a
-          href="https://github.com/jewarner57"
-          class="githubLink"
-          target="_blank"
-          >Github</a
-        >
-      </p>
-    </div>
-    <div class="portfolioSection" id="portfolioSection">
-      <h1 class="sectionTitle">My Portfolio</h1>
 
-      <div class="portfolioItemContainer">
-        <div class="portfolioItem">
-          <img src="quarticolorlogo.png" class="portfolioImg" /><a
-            href="https://quarticolor.wordpress.com/"
-            class="inTextLink"
-            target="_blank"
-            ><div class="hoverDiv">
-              <h2>Quarticolor</h2>
-              <p>App</p>
-            </div></a
-          >
-        </div>
+      <div class="portfolioItem">
+        <img src="lawnmowermanmobile.png" class="portfolioImg" /><a href="https://lawnmowermanmobile.wordpress.com/"
+          class="inTextLink" target="_blank">
+          <div class="hoverDiv">
+            <h2>Lawn Mower Man Mobile</h2>
+            <p>App</p>
+          </div>
+        </a>
+      </div>
 
-        <div class="portfolioItem">
-          <img src="lawnmowermanmobile.png" class="portfolioImg" /><a
-            href="https://lawnmowermanmobile.wordpress.com/"
-            class="inTextLink"
-            target="_blank"
-            ><div class="hoverDiv">
-              <h2>Lawn Mower Man Mobile</h2>
-              <p>App</p>
-            </div></a
-          >
-        </div>
+      <div class="portfolioItem">
+        <img src="tsa3dprinting.PNG" class="portfolioImg" /><a href="http://tsa3dprinting.com/" class="inTextLink"
+          target="_blank">
+          <div class="hoverDiv">
+            <h2>3d Printing</h2>
+            <p>Website</p>
+          </div>
+        </a>
+      </div>
 
-        <div class="portfolioItem">
-          <img src="balloonartmaster.png" class="portfolioImg" /><a
-            href="https://balloonartmaster.com/"
-            class="inTextLink"
-            target="_blank"
-            ><div class="hoverDiv">
-              <h2>Balloon Art Master</h2>
-              <p>Website</p>
-            </div></a
-          >
-        </div>
+      <div class="portfolioItem">
+        <img src="hhseasycal.PNG" class="portfolioImg" /><a href="https://www.hhseasycal.com" class="inTextLink"
+          target="_blank">
+          <div class="hoverDiv">
+            <h2>HHSEasyCal</h2>
+            <p>Web App</p>
+          </div>
+        </a>
+      </div>
 
-        <div class="portfolioItem">
-          <img src="tsa3dprinting.PNG" class="portfolioImg" /><a
-            href="http://tsa3dprinting.com/"
-            class="inTextLink"
-            target="_blank"
-            ><div class="hoverDiv">
-              <h2>3d Printing</h2>
-              <p>Website</p>
-            </div></a
-          >
-        </div>
+      <div class="portfolioItem">
+        <img src="csrichart.PNG" class="portfolioImg" /><a href="http://www.csrichart.com" class="inTextLink"
+          target="_blank">
+          <div class="hoverDiv">
+            <h2>csrichart.com</h2>
+            <p>Website</p>
+          </div>
+        </a>
+      </div>
 
-        <div class="portfolioItem">
-          <img src="wormrunner.PNG" class="portfolioImg" /><a
-            href="https://scratch.mit.edu/projects/24053626/#player"
-            class="inTextLink"
-            target="_blank"
-            ><div class="hoverDiv">
-              <h2>Worm Runner</h2>
-              <p>Scratch Project</p>
-            </div></a
-          >
-        </div>
-
-        <div class="portfolioItem">
-          <img src="hhseasycal.PNG" class="portfolioImg" /><a
-            href="https://www.hhseasycal.com"
-            class="inTextLink"
-            target="_blank"
-            ><div class="hoverDiv">
-              <h2>HHSEasyCal</h2>
-              <p>Web App</p>
-            </div></a
-          >
-        </div>
-
-        <div class="portfolioItem">
-          <img src="csrichart.PNG" class="portfolioImg" /><a
-            href="http://www.csrichart.com"
-            class="inTextLink"
-            target="_blank"
-            ><div class="hoverDiv">
-              <h2>csrichart.com</h2>
-              <p>Website</p>
-            </div></a
-          >
-        </div>
-
-        <div class="portfolioItem">
-          <img src="noknow.png" class="portfolioImg" /><a
-            href="http://www.noknowanonymous.com"
-            class="inTextLink"
-            target="_blank"
-            ><div class="hoverDiv">
-              <h2 class="">Anonymous Chat</h2>
-              <p>Web App</p>
-            </div></a
-          >
-        </div>
+      <div class="portfolioItem">
+        <img src="noknow.png" class="portfolioImg" /><a href="http://www.noknowanonymous.com" class="inTextLink"
+          target="_blank">
+          <div class="hoverDiv">
+            <h2 class="">Anonymous Chat</h2>
+            <p>Web App</p>
+          </div>
+        </a>
       </div>
     </div>
+  </div>
 
-    <p class="bottomCredits">Website Developed By Jonathan Warner</p>
-    <p class="bottomCredits">Copyright 2020 © Jonathan Warner</p>
-  </body>
+  <p class="bottomCredits">Website Developed By Jonathan Warner</p>
+  <p class="bottomCredits">Copyright 2020 © Jonathan Warner</p>
+</body>
 
-  <script type="text/javascript">
-    const IamItemList = [
-      'Web Developer',
-      'App Developer',
-      'Front-End Developer',
-      'Game Developer',
-      'Balloon Artist',
-    ];
-    let counter = 1;
+<script type="text/javascript">
 
-    function changeIamText() {
-      $('#iamList').fadeOut(function () {
-        document.getElementById('iamList').innerHTML = IamItemList[counter];
-        counter++;
-      });
-      $('#iamList').fadeIn();
-      if (counter > IamItemList.length - 1) {
-        counter = 0;
-      }
+  /*
+  if (window.addEventListener && window.requestAnimationFrame && document.getElementsByClassName) window.addEventListener('load', function () {
+    document.getElementsByClassName('fullResHeaderImage').classList.add('fadeInReveal');
+    document.getElementsByClassName('blurredHeaderImage').classList.add('hidden');
+  })
+  */
 
-      setTimeout(changeIamText, 3500);
+  const IamItemList = [
+    'Problem Solver',
+    'Web Developer',
+    'App Developer',
+    'Game Developer',
+    'Front-End Developer',
+  ];
+  let counter = 0;
+
+  function changeIamText() {
+    $('#iamList').fadeOut(function () {
+      document.getElementById('iamList').innerHTML = IamItemList[counter];
+      counter++;
+    });
+    $('#iamList').fadeIn();
+    if (counter > IamItemList.length - 1) {
+      counter = 0;
     }
 
     setTimeout(changeIamText, 3500);
+  }
 
-    /*Make menu bar solid color when page scrolled down */
-    $(window).scroll(function () {
-      if ($(window).scrollTop() >= 100) {
-        $('.navbar').removeClass('navbarStart');
-        $('.navbar').addClass('navbarOpaque');
-        $('.navbar').removeClass('navbarTranslucent');
+  setTimeout(changeIamText, 3500);
 
-        $('.navLink').css('color', 'black');
-      } else {
-        $('.navbar').removeClass('navbarStart');
-        $('.navbar').addClass('navbarTranslucent');
-        $('.navbar').removeClass('navbarOpaque');
+  /*Make menu bar solid color when page scrolled down */
+  $(window).scroll(function () {
+    if ($(window).scrollTop() >= 100) {
+      $('.navbar').removeClass('navbarStart');
+      $('.navbar').addClass('navbarOpaque');
+      $('.navbar').removeClass('navbarTranslucent');
 
-        $('.navLink').css('color', 'white');
-      }
-    });
+      $('.navLink').css('color', 'black');
+    } else {
+      $('.navbar').removeClass('navbarStart');
+      $('.navbar').addClass('navbarTranslucent');
+      $('.navbar').removeClass('navbarOpaque');
 
-    /*hover effect for portfolio items */
-    $('.portfolioItem').hover(function () {
-      $(this).find('div').removeClass('hoverDivStart');
-      $(this).find('div').removeClass('hoverDivRetract');
-      $(this).find('div').addClass('hoverDivExpand');
-    });
+      $('.navLink').css('color', 'white');
+    }
+  });
 
-    $('.portfolioItem').mouseleave(function () {
-      $(this).find('div').removeClass('hoverDivExpand');
-      $(this).find('div').addClass('hoverDivRetract');
-    });
-  </script>
+  /*hover effect for portfolio items */
+  $('.portfolioItem').hover(function () {
+    $(this).find('div').removeClass('hoverDivStart');
+    $(this).find('div').removeClass('hoverDivRetract');
+    $(this).find('div').addClass('hoverDivExpand');
+  });
+
+  $('.portfolioItem').mouseleave(function () {
+    $(this).find('div').removeClass('hoverDivExpand');
+    $(this).find('div').addClass('hoverDivRetract');
+  });
+</script>
+
 </html>
