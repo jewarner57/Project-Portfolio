@@ -133,7 +133,7 @@ a {
 .headerImage {
   width: 105vw;
   height: 100vh;
-  background: url('./header-min.png') no-repeat center center;
+  background: url('./assets/header-min.png') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
