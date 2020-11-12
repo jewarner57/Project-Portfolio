@@ -153,6 +153,15 @@ a {
   position: absolute;
   z-index: 1;
 }
+@media only screen and (max-width: 1100px){
+	.headerTitle h1 {
+    font-size: 25px;
+  }
+  
+  .headerTitle h2 {
+    font-size: 20px;
+  }
+}
 
 /* 2.0 About Me Section */
 .aboutMeSection {
