@@ -33,10 +33,9 @@ a {
 }
 
 .githubLinkText {
-  font-size: 20px;
+  font-size: 1.5em;
   color: black;
   text-align: center;
-  margin-top: 40px;
 }
 
 @keyframes linkColorFlash {
@@ -167,6 +166,7 @@ a {
 .aboutMeSection {
   width: 100%;
   padding: 20px;
+  font-size: 1.2em;
   background-color: white;
   font-family: 'Open Sans', sans-serif;
   display: flex;
@@ -180,7 +180,7 @@ a {
 /* 3.0 Skills Section */
 
 .skillsSection {
-  background-color: #f2f2f2;
+  background-color: white;
   width: 100%;
   padding: 20px;
   font-family: 'Open Sans', sans-serif;
@@ -188,6 +188,10 @@ a {
 
 .sectionTitle {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .skillsOuterWrapper {
@@ -221,7 +225,7 @@ a {
   font-family: 'Open Sans', sans-serif;
   padding: 20px;
   width: 100%;
-  margin-bottom: 40px;
+  background-color: #f2f2f2;
 }
 
 .portfolioItem {
@@ -269,7 +273,9 @@ a {
 /* footer 4.0 */
 .bottomCredits {
   text-align: center;
+  background-color: #f2f2f2;
   font-family: 'Open Sans', sans-serif;
+  padding: 10px 0px;
 }
 
 /* 9.9 */
